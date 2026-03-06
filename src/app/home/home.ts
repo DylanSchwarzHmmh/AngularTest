@@ -2,7 +2,7 @@ import { UpperCasePipe } from '@angular/common';
 import {Component, inject} from '@angular/core';
 import { TextBoxComponent } from '../text-box/text-box.component';
 import {RouterLink} from '@angular/router';
-import {TextService} from '../text.service';
+import {TextService} from '../services/text.service';
 
 @Component({
   selector: 'appHome',

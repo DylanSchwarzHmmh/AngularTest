@@ -1,7 +1,7 @@
 import {Component, OnDestroy, OnInit, inject, signal, Signal} from '@angular/core';
 import {Post} from '../interface/post';
 import {BlogDetailComponent} from '../blog-detail/blog-detail.component';
-import {PostService} from '../post.service';
+import {PostService} from '../services/post.service';
 
 @Component({
   selector: 'app-blog',

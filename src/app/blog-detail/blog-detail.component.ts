@@ -1,6 +1,6 @@
 import {Component, inject, input, InputSignal} from '@angular/core';
 import {Post} from '../interface/post';
-import {PostService} from '../post.service';
+import {PostService} from '../services/post.service';
 
 @Component({
   selector: 'app-blog-detail',
